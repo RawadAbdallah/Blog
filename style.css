@@ -27,6 +27,9 @@ header {
   background-color: var(--dark-color);
 }
 
+section{
+    padding: 50px 100px;
+}
 .logo {
   float: left;
   width: 50%;
@@ -190,7 +193,6 @@ button:hover {
 }
 
 .info-p {
-  float: left;
   padding-top: 35px;
   font-size: 24px;
   color: var(--primary-color);
@@ -227,8 +229,60 @@ button:hover {
   margin: 10px;
 }
 
-.capabilities {
+.capibilities {
   background-color: var(--primary-color);
   color: var(--dark-color);
   padding: 50px 100px;
+}
+.capibilities .headline, .capibilities  .info-p{
+    color: var(--dark-color);
+}
+
+.team{
+    background-color: var(--dark-color)
+}
+
+.team .section-pre-text{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+
+.profile-card {
+    display: inline-block;
+    width: calc(33.33% - 30px); 
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.profile-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.profile-card h2 {
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-size: 28px;
+}
+
+.profile-card p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--primary-color);
+
+}
+
+footer{
+    padding: 15px;
+    text-align: center;
 }
